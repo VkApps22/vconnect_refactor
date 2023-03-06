@@ -1,0 +1,9 @@
+export { default as createUserService } from './create';
+export { default as updateUserService } from './update';
+export { default as updateUserLanguageService } from './update-language';
+export { default as purgeUserService } from './purge';
+export { default as changePasswordService } from './change-password';
+export { default as fetchRecentViewedService } from './fetch-recent-viewed';
+export { default as addFavoriteService } from './add-favorite';
+export { default as removeFavoriteService } from './remove-favorite';
+export { default as fetchFavoritesService } from './fetch-favorites';

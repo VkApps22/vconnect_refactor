@@ -1,0 +1,13 @@
+# Misc
+.DS_STORE
+node_modules
+build/
+coverage/
+*.log*
+
+# VSCode
+.vscode
+
+# Idea
+.idea
+*.iml

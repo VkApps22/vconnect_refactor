@@ -1,0 +1,12 @@
+{
+  "name": "react-pdf",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "bundle": "./container-generator.js",
+    "dev": "./node_modules/.bin/http-server src -o viewer.html"
+  },
+  "devDependencies": {
+    "http-server": "0.12.3"
+  }
+}

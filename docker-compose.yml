@@ -1,0 +1,54 @@
+version: '3'
+
+services:
+
+  mongo:
+    container_name: vconnect_mongodb
+    image: mongo:4.4.2
+    ports:
+      - "27017:27017"
+    networks:
+      - ws
+  ws:
+    container_name: vconnect_ws
+    image: node:lts
+    volumes:
+      - ./ws:/usr/src/ws
+      - /usr/src/ws/node_modules
+    ports:
+      - "3000:3000"
+      - "9229:9229"
+    working_dir: /usr/src/ws
+    environment:
+      - MONGODB_URI=mongodb://mongo/vconnect
+    command: >
+      sh -c "yarn &&
+             yarn start"
+    depends_on: [ mongo ]
+    networks:
+      - ws
+  desktop:
+    container_name: vconnect_desktop
+    image: node:lts
+    volumes:
+      - ./desktop:/usr/src/desktop
+      - /usr/src/desktop/node_modules
+    ports:
+      - "4000:4000"
+      - "10229:9229"
+    working_dir: /usr/src/desktop
+    command: >
+      sh -c "yarn &&
+             yarn start"
+    environment:
+      - PORT=4000
+      - DISABLE_ESLINT=true
+    depends_on: [ ws ]
+
+volumes:
+  data:
+    driver: local
+
+networks:
+  ws:
+    driver: bridge

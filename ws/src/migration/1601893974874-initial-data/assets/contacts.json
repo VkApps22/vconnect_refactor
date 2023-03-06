@@ -1,0 +1,370 @@
+[
+  {
+    "name": "Ednei Leite",
+    "phones": [
+      "(11) 98387-9985",
+      "(11) 4894-7319"
+    ],
+    "email": "ednei.leite@vulkan.com",
+    "categoryKey": "customer-service",
+    "category": [
+      {
+        "value": "Assistência Técnica",
+        "language": "pt"
+      }
+    ],
+    "language": "pt"
+  },
+  {
+    "name": "Matias Quaglia",
+    "phones": [
+      "(11) 98369-0349"
+    ],
+    "email": "matias.quaglia@vulkan.com",
+    "categoryKey": "sales",
+    "category": [
+      {
+        "value": "Vendas",
+        "language": "pt"
+      }
+    ],
+    "placeKey": "sao-paulo-capital",
+    "place": [
+      {
+        "value": "SÃO PAULO – Capital",
+        "language": "pt"
+      }
+    ],
+    "country": "brazil",
+    "states": [
+      "sp"
+    ],
+    "language": "pt"
+  },
+  {
+    "name": "Daniel Cunha",
+    "phones": [
+      "(11) 99353-1973"
+    ],
+    "email": "daniel.cunha@vulkan.com",
+    "categoryKey": "sales",
+    "category": [
+      {
+        "value": "Vendas",
+        "language": "pt"
+      }
+    ],
+    "placeKey": "sao-paulo-interior",
+    "place": [
+      {
+        "value": "SÃO PAULO - Interior",
+        "language": "pt"
+      }
+    ],
+    "language": "pt",
+    "country": "brazil",
+    "states": [
+      "sp"
+    ]
+  },
+  {
+    "name": "Manoel Bueno",
+    "phones": [
+      "(24) 99912-9042"
+    ],
+    "email": "manoel.bueno@vulkan.com",
+    "categoryKey": "sales",
+    "category": [
+      {
+        "value": "Vendas",
+        "language": "pt"
+      }
+    ],
+    "placeKey": "rio-de-janeiro-e-vale-do-paraiba-sp",
+    "place": [
+      {
+        "value": "RIO DE JANEIRO E VALE DO PARAIBA (SP)",
+        "language": "pt"
+      }
+    ],
+    "language": "pt",
+    "country": "brazil",
+    "states": [
+      "rj",
+      "sp"
+    ]
+  },
+  {
+    "name": "Luiz Reimão Nogueira",
+    "phones": [
+      "(31) 99443-0002"
+    ],
+    "email": "luiz.nogueira@vulkan.com",
+    "categoryKey": "sales",
+    "category": [
+      {
+        "value": "Vendas",
+        "language": "pt"
+      }
+    ],
+    "placeKey": "minas-gerais",
+    "place": [
+      {
+        "value": "MINAS GERAIS",
+        "language": "pt"
+      }
+    ],
+    "descriptionKey": "fabricante-de-equipamentos",
+    "description": [
+      {
+        "value": "Fabricantes de Equipamentos (OEM’s)",
+        "language": "pt"
+      }
+    ],
+    "language": "pt",
+    "country": "brazil",
+    "states": [
+      "mg"
+    ]
+  },
+  {
+    "name": "Guilherme Lajes",
+    "phones": [
+      "(31) 99748-6532"
+    ],
+    "email": "guilherme.lages@vulkan.com",
+    "categoryKey": "sales",
+    "category": [
+      {
+        "value": "Vendas",
+        "language": "pt"
+      }
+    ],
+    "placeKey": "minas-gerais",
+    "place": [
+      {
+        "value": "MINAS GERAIS",
+        "language": "pt"
+      }
+    ],
+    "descriptionKey": "industrias-de-mineracao-cimenteiras",
+    "description": [
+      {
+        "value": "Indústrias de Mineração Cimenteiras",
+        "language": "pt"
+      }
+    ],
+    "language": "pt",
+    "country": "brazil",
+    "states": [
+      "mg"
+    ]
+  },
+  {
+    "name": "Rogério Monticelli",
+    "phones": [
+      "(31) 97151-0459"
+    ],
+    "email": "rogerio.monticelli@vulkan.com",
+    "categoryKey": "sales",
+    "category": [
+      {
+        "value": "Vendas",
+        "language": "pt"
+      }
+    ],
+    "placeKey": "minas-gerais-e-maranhao",
+    "place": [
+      {
+        "value": "MINAS GERAIS E MARANHÃO",
+        "language": "pt"
+      }
+    ],
+    "descriptionKey": "industrias-siderurgicas-e-metal-mecanica",
+    "description": [
+      {
+        "value": "Indústrias Siderúrgicas e Metal Mecânica",
+        "language": "pt"
+      }
+    ],
+    "language": "pt",
+    "country": "brazil",
+    "states": [
+      "mg",
+      "ma"
+    ]
+  },
+  {
+    "name": "Leandro Coelho",
+    "phones": [
+      "(47) 99220-6371"
+    ],
+    "email": "leandro.coelho@vulkan.com",
+    "categoryKey": "sales",
+    "category": [
+      {
+        "value": "Vendas",
+        "language": "pt"
+      }
+    ],
+    "placeKey": "parana-santa-catarina-e-rio-grande-do-sul",
+    "place": [
+      {
+        "value": "PARANÁ, SANTA CATARINA E RIO GRANDE DO SUL",
+        "language": "pt"
+      }
+    ],
+    "language": "pt",
+    "country": "brazil",
+    "states": [
+      "pr",
+      "sc",
+      "rs"
+    ]
+  },
+  {
+    "name": "Alison Pinheiro",
+    "phones": [
+      "(94) 99163-0524"
+    ],
+    "email": "alison.silva@vulkan.com",
+    "categoryKey": "sales",
+    "category": [
+      {
+        "value": "Vendas",
+        "language": "pt"
+      }
+    ],
+    "placeKey": "para-regiao-norte",
+    "place": [
+      {
+        "value": "PARÁ E REGIÃO NORTE",
+        "language": "pt"
+      }
+    ],
+    "language": "pt",
+    "country": "brazil",
+    "states": [
+      "pa",
+      "ac",
+      "ap",
+      "am",
+      "ro",
+      "rr",
+      "to"
+    ]
+  },
+  {
+    "name": "Ednei Leite",
+    "phones": [
+      "+55 11 98387-9985",
+      "+55 11 4894-7319"
+    ],
+    "email": "ednei.leite@vulkan.com",
+    "categoryKey": "customer-service",
+    "category": [
+      {
+        "value": "Customer Service",
+        "language": "en"
+      }
+    ],
+    "language": "en"
+  },
+  {
+    "name": "Brazilian Plant",
+    "phones": [
+      "+55 11 4894-7300"
+    ],
+    "email": "vdb.rfqs@vulkan.com",
+    "categoryKey": "sales",
+    "category": [
+      {
+        "value": "Sales",
+        "language": "en"
+      }
+    ],
+    "language": "en"
+  },
+  {
+    "name": "Ednei Leite",
+    "phones": [
+      "+55 11 98387-9985",
+      "+55 11 4894-7319"
+    ],
+    "email": "ednei.leite@vulkan.com",
+    "categoryKey": "customer-service",
+    "category": [
+      {
+        "value": "Soporte Tecnico",
+        "language": "es"
+      }
+    ],
+    "language": "es"
+  },
+  {
+    "name": "Andre Nunes",
+    "phones": [
+      "+57 31 7772-0651"
+    ],
+    "email": "andre.nunes@vulkan.com",
+    "categoryKey": "sales",
+    "category": [
+      {
+        "value": "Ventas",
+        "language": "es"
+      }
+    ],
+    "placeKey": "sucursal-colombia-y-region-andina",
+    "place": [
+      {
+        "value": "Sucursal Colombia y Región Andina",
+        "language": "es"
+      }
+    ],
+    "language": "es"
+  },
+  {
+    "name": "Gerardo Duran",
+    "phones": [
+      "+52 993 284-8404"
+    ],
+    "email": "gerardo.duran@vulkan.com",
+    "categoryKey": "sales",
+    "category": [
+      {
+        "value": "Ventas",
+        "language": "es"
+      }
+    ],
+    "placeKey": "sucursal-mexico",
+    "place": [
+      {
+        "value": "Sucursal México",
+        "language": "es"
+      }
+    ],
+    "language": "es"
+  },
+  {
+    "name": "Arno Ett",
+    "phones": [
+      "+55 11 99512-4929"
+    ],
+    "email": "arno.ett@vulkan.com",
+    "categoryKey": "sales",
+    "category": [
+      {
+        "value": "Ventas",
+        "language": "es"
+      }
+    ],
+    "placeKey": "demas-paises-de-america-latina",
+    "place": [
+      {
+        "value": "Demás Países de América Latina",
+        "language": "es"
+      }
+    ],
+    "language": "es"
+  }
+]

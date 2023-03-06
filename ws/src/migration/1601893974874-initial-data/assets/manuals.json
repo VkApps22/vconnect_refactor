@@ -1,0 +1,68 @@
+[
+  {
+    "name": "MOI720-0002-PT",
+    "language": "pt",
+    "file": "MOI720-0002-PT",
+    "sections": [
+      {
+        "icon": "description",
+        "title": "Instalação",
+        "page": 40
+      },
+      {
+        "icon": "update",
+        "title": "Manutenção",
+        "page": 60
+      },
+      {
+        "icon": "settings",
+        "title": "Operação",
+        "page": 30
+      }
+    ]
+  },
+  {
+    "name": "MOI720-0002-EN",
+    "language": "en",
+    "file": "MOI720-0002-EN",
+    "sections": [
+      {
+        "icon": "description",
+        "title": "Installation",
+        "page": 40
+      },
+      {
+        "icon": "update",
+        "title": "Maintenance",
+        "page": 60
+      },
+      {
+        "icon": "settings",
+        "title": "Operation",
+        "page": 30
+      }
+    ]
+  },
+  {
+    "name": "MOI720-0002-ES",
+    "language": "es",
+    "file": "MOI720-0002-ES",
+    "sections": [
+      {
+        "icon": "description",
+        "title": "Instalación",
+        "page": 40
+      },
+      {
+        "icon": "update",
+        "title": "Mantenimiento",
+        "page": 60
+      },
+      {
+        "icon": "settings",
+        "title": "Operación",
+        "page": 30
+      }
+    ]
+  }
+]

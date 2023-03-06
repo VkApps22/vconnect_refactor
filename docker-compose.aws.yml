@@ -1,0 +1,40 @@
+version: '3'
+
+services:
+
+  mongo:
+    container_name: vconnect_mongodb
+    image: mongo:4.4.2
+    restart: always
+    ports:
+      - "27017:27017"
+    networks:
+      - ws
+  ws:
+    container_name: vconnect_ws
+    build: ws/.
+    restart: always
+    ports:
+      - "3000:3000"
+    environment:
+      - NODE_ENV=production
+      - MONGODB_URI=mongodb://mongo/vconnect
+    depends_on: [ mongo ]
+    networks:
+      - ws
+  desktop:
+    container_name: vconnect_desktop
+    build:
+      context: desktop/.
+      dockerfile: Dockerfile
+      args:
+        - NODE_ENV=production
+        - REACT_APP_HOST_ADDRESS=https://vconnectplatform.com:8443
+    restart: always
+    ports:
+      - "4000:4000"
+    depends_on: [ ws ]
+
+networks:
+  ws:
+    driver: bridge

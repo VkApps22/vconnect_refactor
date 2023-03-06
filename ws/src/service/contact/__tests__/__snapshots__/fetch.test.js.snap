@@ -1,0 +1,101 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`fetchContact country is brazil and state is acre 1`] = `
+Array [
+  "en_customer-service_undefined_Ednei Leite",
+  "en_sales_undefined_Brazilian Plant",
+  "es_customer-service_undefined_Ednei Leite",
+  "es_sales_demas-paises-de-america-latina_Arno Ett",
+  "es_sales_sucursal-colombia-y-region-andina_Andre Nunes",
+  "es_sales_sucursal-mexico_Gerardo Duran",
+  "pt_customer-service_undefined_Ednei Leite",
+  "pt_sales_para-regiao-norte_Alison Pinheiro",
+  "pt_sales_minas-gerais_Guilherme Lajes",
+  "pt_sales_minas-gerais_Luiz Reimão Nogueira",
+  "pt_sales_minas-gerais-e-maranhao_Rogério Monticelli",
+  "pt_sales_parana-santa-catarina-e-rio-grande-do-sul_Leandro Coelho",
+  "pt_sales_rio-de-janeiro-e-vale-do-paraiba-sp_Manoel Bueno",
+  "pt_sales_sao-paulo-capital_Matias Quaglia",
+  "pt_sales_sao-paulo-interior_Daniel Cunha",
+]
+`;
+
+exports[`fetchContact country is brazil and state is sc 1`] = `
+Array [
+  "en_customer-service_undefined_Ednei Leite",
+  "en_sales_undefined_Brazilian Plant",
+  "es_customer-service_undefined_Ednei Leite",
+  "es_sales_demas-paises-de-america-latina_Arno Ett",
+  "es_sales_sucursal-colombia-y-region-andina_Andre Nunes",
+  "es_sales_sucursal-mexico_Gerardo Duran",
+  "pt_customer-service_undefined_Ednei Leite",
+  "pt_sales_parana-santa-catarina-e-rio-grande-do-sul_Leandro Coelho",
+  "pt_sales_minas-gerais_Guilherme Lajes",
+  "pt_sales_minas-gerais_Luiz Reimão Nogueira",
+  "pt_sales_minas-gerais-e-maranhao_Rogério Monticelli",
+  "pt_sales_para-regiao-norte_Alison Pinheiro",
+  "pt_sales_rio-de-janeiro-e-vale-do-paraiba-sp_Manoel Bueno",
+  "pt_sales_sao-paulo-capital_Matias Quaglia",
+  "pt_sales_sao-paulo-interior_Daniel Cunha",
+]
+`;
+
+exports[`fetchContact country is brazil and state is sp 1`] = `
+Array [
+  "en_customer-service_undefined_Ednei Leite",
+  "en_sales_undefined_Brazilian Plant",
+  "es_customer-service_undefined_Ednei Leite",
+  "es_sales_demas-paises-de-america-latina_Arno Ett",
+  "es_sales_sucursal-colombia-y-region-andina_Andre Nunes",
+  "es_sales_sucursal-mexico_Gerardo Duran",
+  "pt_customer-service_undefined_Ednei Leite",
+  "pt_sales_sao-paulo-capital_Matias Quaglia",
+  "pt_sales_sao-paulo-interior_Daniel Cunha",
+  "pt_sales_rio-de-janeiro-e-vale-do-paraiba-sp_Manoel Bueno",
+  "pt_sales_minas-gerais_Guilherme Lajes",
+  "pt_sales_minas-gerais_Luiz Reimão Nogueira",
+  "pt_sales_minas-gerais-e-maranhao_Rogério Monticelli",
+  "pt_sales_para-regiao-norte_Alison Pinheiro",
+  "pt_sales_parana-santa-catarina-e-rio-grande-do-sul_Leandro Coelho",
+]
+`;
+
+exports[`fetchContact country is germany and state is unknown 1`] = `
+Array [
+  "en_customer-service_undefined_Ednei Leite",
+  "en_sales_undefined_Brazilian Plant",
+  "es_customer-service_undefined_Ednei Leite",
+  "es_sales_demas-paises-de-america-latina_Arno Ett",
+  "es_sales_sucursal-colombia-y-region-andina_Andre Nunes",
+  "es_sales_sucursal-mexico_Gerardo Duran",
+  "pt_customer-service_undefined_Ednei Leite",
+  "pt_sales_minas-gerais_Guilherme Lajes",
+  "pt_sales_minas-gerais_Luiz Reimão Nogueira",
+  "pt_sales_minas-gerais-e-maranhao_Rogério Monticelli",
+  "pt_sales_para-regiao-norte_Alison Pinheiro",
+  "pt_sales_parana-santa-catarina-e-rio-grande-do-sul_Leandro Coelho",
+  "pt_sales_rio-de-janeiro-e-vale-do-paraiba-sp_Manoel Bueno",
+  "pt_sales_sao-paulo-capital_Matias Quaglia",
+  "pt_sales_sao-paulo-interior_Daniel Cunha",
+]
+`;
+
+exports[`fetchContact happy day 1`] = `
+Array [
+  "en_customer-service_undefined_Ednei Leite",
+  "en_sales_undefined_Brazilian Plant",
+  "es_customer-service_undefined_Ednei Leite",
+  "es_sales_demas-paises-de-america-latina_Arno Ett",
+  "es_sales_sucursal-colombia-y-region-andina_Andre Nunes",
+  "es_sales_sucursal-mexico_Gerardo Duran",
+  "pt_customer-service_undefined_Ednei Leite",
+  "pt_sales_minas-gerais_Guilherme Lajes",
+  "pt_sales_minas-gerais_Luiz Reimão Nogueira",
+  "pt_sales_minas-gerais-e-maranhao_Rogério Monticelli",
+  "pt_sales_para-regiao-norte_Alison Pinheiro",
+  "pt_sales_parana-santa-catarina-e-rio-grande-do-sul_Leandro Coelho",
+  "pt_sales_rio-de-janeiro-e-vale-do-paraiba-sp_Manoel Bueno",
+  "pt_sales_sao-paulo-capital_Matias Quaglia",
+  "pt_sales_sao-paulo-interior_Daniel Cunha",
+]
+`;

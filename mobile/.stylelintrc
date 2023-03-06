@@ -1,0 +1,19 @@
+{
+  "plugins": [
+    "stylelint-order",
+    "stylelint-csstree-validator"
+  ],
+  "processors": [
+    "stylelint-processor-styled-components",
+    "./.stylelintrc.processor.js"
+  ],
+  "extends": [
+    "stylelint-config-recommended",
+    "stylelint-config-styled-components"
+  ],
+  "rules": {
+    "csstree/validator": true,
+    "length-zero-no-unit": true,
+    "order/properties-alphabetical-order": true
+  }
+}

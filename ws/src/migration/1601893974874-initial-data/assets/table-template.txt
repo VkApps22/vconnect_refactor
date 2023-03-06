@@ -1,0 +1,30 @@
+https://www.convertcsv.com/csv-to-json.htm
+
+  {lb}
+     "nameKey": "{f2.trim().toLowerCase().replace(' ', '_')}",
+     "name": [
+            {lb}"language": "pt", "value": "{f1.trim()}"{rb},
+            {lb}"language": "en", "value": "{f2.trim()}"{rb},
+            {lb}"language": "es", "value": "{f3.trim()}"{rb}
+     ],
+     "familyKey": "{f2.trim().toLowerCase().replace(' ', '_') + '-' + f5.trim().toLowerCase().replace(' ', '_')}",
+     "family": [
+            {lb}"language": "pt", "value": "{f4.trim()}"{rb},
+            {lb}"language": "en", "value": "{f5.trim()}"{rb},
+            {lb}"language": "es", "value": "{f6.trim()}"{rb}
+     ],
+     "model": "{f7.trim()}",
+     "codePattern": "{f10.trim()}",
+     "playlist": "{f11.trim()}",
+     "description": [
+            {lb}"language": "pt", "value": "{f12.trim()}"{rb},
+            {lb}"language": "en", "value": "{f13.trim()}"{rb},
+            {lb}"language": "es", "value": "{f14.trim()}"{rb}
+     ],
+     "manual": [
+            {lb}"language": "pt", "value": "{f15.trim()}"{rb},
+            {lb}"language": "en", "value": "{f16.trim()}"{rb},
+            {lb}"language": "es", "value": "{f17.trim()}"{rb}
+     ],
+     "image": "{f18.trim()}"
+  {rb}

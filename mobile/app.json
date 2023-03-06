@@ -1,0 +1,55 @@
+{
+  "expo": {
+    "name": "VConnect – Platform",
+    "slug": "vconnect",
+    "version": "15.0.0",
+    "privacy": "unlisted",
+    "orientation": "portrait",
+    "scheme": "vconnect",
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "icon": "./assets/images/vconnect-icon-android.png",
+    "splash": {
+      "image": "./assets/images/vconnect-splash-screen.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.vulkan.vconnect.dev",
+      "buildNumber": "15.0.0",
+      "icon": "./assets/images/vconnect-icon-ios.png",
+      "usesAppleSignIn": true
+    },
+    "android": {
+      "package": "com.vulkan.vconnect.augmentify",
+      "versionCode": 15,
+      "permissions": [],
+      "icon": "./assets/images/vconnect-icon-android.png",
+      "buildType": "apk"
+    },
+    "packagerOpts": {
+      "sourceExts": [
+        "js",
+        "json",
+        "ts",
+        "tsx",
+        "jsx"
+      ],
+      "config": "metro.config.js"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "0784ba31-a3e8-474d-96e2-774e991c2177"
+      }
+    },
+    "runtimeVersion": "exposdk:48.0.0"
+  }
+}
